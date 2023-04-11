@@ -1,0 +1,27 @@
+{
+    "editor.rulers": [
+        100
+    ],
+    // 「which python」コマンドなどにより、作成したpython環境のpathを指定する
+    // "python.pythonPath": ".venv/bin/python",
+    "python.analysis.extraPaths": [
+        "src"
+    ],
+    "esbonio.server.enabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
