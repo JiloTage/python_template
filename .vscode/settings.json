@@ -8,7 +8,7 @@
         "src"
     ],
     "esbonio.server.enabled": true,
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "none",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pycodestyleEnabled": false,
@@ -22,6 +22,7 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         },
+        "editor.defaultFormatter": "ms-python.black-formatter",
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt"
 }
